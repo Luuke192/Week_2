@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    font-family: 'Coming Soon', cursive;
+    color: dodgerblue;
+    background-image: url(https://cbsbaltimore.files.wordpress.com/2011/06/walmart.jpg);
+    background-size: 100%;
+}
+h3 {
+    font-size: 36px;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
