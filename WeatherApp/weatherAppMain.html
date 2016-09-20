@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weather App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- Official Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="weatherAppTheme.css">
+    <!-- Our project CSS -->
+    <link rel="stylesheet" href="weatherAppStyle.css">
+</head>
+
+<body>
+    <h2>Weather App Wireframe</h2>
+    <div class="mainScreen">
+        <!--FIRST THREE MAIN COLUMNS-->
+        <div class="container hidden-sm hidden-xs">
+            <div class="row center-block">
+                <!--SUNNY-->
+                <div class="col-sm-4 spacing sunny">
+                    <h4>Paintsville, KY</h4>
+                    <br />
+                    <h1>70&deg; F</h1>
+                    <br />
+                    <h4>Sunny</h4>
+                    <br />
+                    <hr />
+                    <div class="row">
+                        <!--BOTTOM COLUMNS-->
+                        <div class="col-sm-4 spacingInWeather">
+                            <h5>70&deg; F</h5>
+                            <h5>min</h5>
+                        </div>
+                        <div class="col-sm-4 spacingInWeather">
+                            <h5>70%</h5>
+                            <h5>rain</h5>
+                        </div>
+                        <div class="col-sm-4 spacingInWeather">
+                            <h5>70&deg; F</h5>
+                            <h5>max</h5>
+                        </div>
+                    </div>
+                </div>
+                <!--RAINY-->
+                <div class="col-sm-4 spacing rainy">
+                    <h4>Paintsville, KY</h4>
+                    <br />
+                    <h1>70&deg; F</h1>
+                    <br />
+                    <h4>Rainy</h4>
+                    <br />
+                    <hr />
+                    <div class="row">
+                        <!--BOTTOM COLUMNS-->
+                        <div class="col-sm-4 spacingInWeather">
+                            <h5>70&deg; F</h5>
+                            <h5>min</h5>
+                        </div>
+                        <div class="col-sm-4 spacingInWeather">
+                            <h5>70%</h5>
+                            <h5>rain</h5>
+                        </div>
+                        <div class="col-sm-4 spacingInWeather">
+                            <h5>70&deg; F</h5>
+                            <h5>max</h5>
+                        </div>
+                    </div>
+                </div>
+                <!--SNOW-->
+                <div class="col-sm-4 spacing snow">
+                    <h4>Paintsville, KY</h4>
+                    <br />
+                    <h1>70&deg; F</h1>
+                    <br />
+                    <h4>Snow</h4>
+                    <br />
+                    <hr />
+                    <div class="row">
+                        <!--BOTTOM COLUMNS-->
+                        <div class="col-sm-4 spacingInWeather">
+                            <h5>70&deg; F</h5>
+                            <h5>min</h5>
+                        </div>
+                        <div class="col-sm-4 spacingInWeather">
+                            <h5>70%</h5>
+                            <h5>rain</h5>
+                        </div>
+                        <div class="col-sm-4 spacingInWeather">
+                            <h5>70&deg; F</h5>
+                            <h5>max</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--NEXT THREE MAIN COLUMNS-->
+        <div class="container hidden-sm hidden-xs">
+            <div class="row center-block">
+                <!--SLEET-->
+                <div class="col-sm-4 spacing sleet">
+                    <h4>Paintsville, KY</h4>
+                    <br />
+                    <h1>70&deg; F</h1>
+                    <br />
+                    <h4>Sleet</h4>
+                    <br />
+                    <hr />
+                    <div class="row">
+                        <!--BOTTOM COLUMNS-->
+                        <div class="col-sm-4 spacingInWeather">
+                            <h5>70&deg; F</h5>
+                            <h5>min</h5>
+                        </div>
+                        <div class="col-sm-4 spacingInWeather">
+                            <h5>70%</h5>
+                            <h5>rain</h5>
+                        </div>
+                        <div class="col-sm-4 spacingInWeather">
+                            <h5>70&deg; F</h5>
+                            <h5>max</h5>
+                        </div>
+                    </div>
+                </div>
+                <!--CLEAR WEATHER-->
+                <div class="col-sm-4 spacing clear">
+                    <h4>Paintsville, KY</h4>
+                    <br />
+                    <h1>70&deg; F</h1>
+                    <br />
+                    <h4>Clear</h4>
+                    <br />
+                    <hr />
+                    <div class="row">
+                        <!--BOTTOM COLUMNS-->
+                        <div class="col-sm-4 spacingInWeather">
+                            <h5>70&deg; F</h5>
+                            <h5>min</h5>
+                        </div>
+                        <div class="col-sm-4 spacingInWeather">
+                            <h5>70%</h5>
+                            <h5>rain</h5>
+                        </div>
+                        <div class="col-sm-4 spacingInWeather">
+                            <h5>70&deg; F</h5>
+                            <h5>max</h5>
+                        </div>
+                    </div>
+                </div>
+                <!--CLOUDY WEATHER-->
+                <div class="col-sm-4 spacing cloudy">
+                    <h4>Paintsville, KY</h4>
+                    <br />
+                    <h1>70&deg; F</h1>
+                    <br />
+                    <h4>Cloudy</h4>
+                    <br />
+                    <hr />
+                    <div class="row">
+                        <!--BOTTOM COLUMNS-->
+                        <div class="col-sm-4 spacingInWeather">
+                            <h5>70&deg; F</h5>
+                            <h5>min</h5>
+                        </div>
+                        <div class="col-sm-4 spacingInWeather">
+                            <h5>70%</h5>
+                            <h5>rain</h5>
+                        </div>
+                        <div class="col-sm-4 spacingInWeather">
+                            <h5>70&deg; F</h5>
+                            <h5>max</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h3 class="visible-sm hidden-md">Please increase your screen size!</h3>
+
+
+
+    <!-- Official JQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <!-- Official Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <!-- Our project JS -->
+    <script src="weatherAppJS.js"></script>
+
+</body>
+
+</html>

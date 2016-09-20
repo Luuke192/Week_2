@@ -1,0 +1,66 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+hr {
+    border-color: black;
+}
+h3 {
+    text-align: center;
+}
+h4 {
+    font-weight: bold;
+}
+h5 {
+    font-weight: bold;
+}
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+.mainScreen {
+    position: center;
+}
+.spacing {
+    margin: 5px;
+    padding: 5px;
+    width: 32%;
+}
+.spacingInWeather {
+    width: 32%;
+}
+.sunny {
+    color: white;
+    background-image:url(http://dangsayz.com/images/sunny-images/sunny-images-3.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+}
+.rainy {
+    color: white;
+    background-image:url(https://openclipart.org/image/2400px/svg_to_png/237824/rainOnWindow.png);
+    background-size: 100% 100%;
+    text-align: center;
+}
+.snow {
+    color: white;
+    background-image:url(http://media.nbcmiami.com/images/1200*675/Snow-Flurries-Generic.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+}
+.sleet {
+    color: white;
+    background-image:url(https://media1.britannica.com/eb-media/67/123867-004-B8C2F31F.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+}
+.clear {
+    color: white;
+    background-image:url(http://www.gilbertlodge.com/2011/images/01-20-11-moon.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+}
+.cloudy {
+    color: white;
+    background-image:url(https://static.pexels.com/photos/1818/sky-clouds-cloudy-forest.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+}
