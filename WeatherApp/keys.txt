@@ -1,6 +1,8 @@
 Google Maps Geocoding API Key
 AIzaSyBCMlkxEnVKsOdtkY8VFBb5BCZFYFRz2uU
-https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyBCMlkxEnVKsOdtkY8VFBb5BCZFYFRz2uU
+https://maps.googleapis.com/maps/api/geocode/json?address=&key=AIzaSyBCMlkxEnVKsOdtkY8VFBb5BCZFYFRz2uU
+
+https://maps.googleapis.com/maps/api/geocode/json?address=&key=AIzaSyBCMlkxEnVKsOdtkY8VFBb5BCZFYFRz2uU
 
 Dark Sky API
 85c1d9f9ba0d75db7a9f54214ce2c1c5
