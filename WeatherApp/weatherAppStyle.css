@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 hr {
-    border-color: black;
+    border-color: white;
 }
 h3 {
     text-align: center;
@@ -31,36 +31,43 @@ h2 {
 .sunny {
     color: white;
     background-image:url(http://dangsayz.com/images/sunny-images/sunny-images-3.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center top;
     text-align: center;
+    border-radius: 20px;
 }
 .rainy {
     color: white;
     background-image:url(https://openclipart.org/image/2400px/svg_to_png/237824/rainOnWindow.png);
-    background-size: 100% 100%;
+    background-size: cover;
     text-align: center;
+    border-radius: 20px;
 }
 .snow {
     color: white;
     background-image:url(http://media.nbcmiami.com/images/1200*675/Snow-Flurries-Generic.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
     text-align: center;
+    border-radius: 20px;
 }
 .sleet {
     color: white;
     background-image:url(https://media1.britannica.com/eb-media/67/123867-004-B8C2F31F.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
     text-align: center;
+    border-radius: 20px;
 }
 .clear {
     color: white;
     background-image:url(http://www.gilbertlodge.com/2011/images/01-20-11-moon.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
     text-align: center;
+    border-radius: 20px;
 }
 .cloudy {
     color: white;
     background-image:url(https://static.pexels.com/photos/1818/sky-clouds-cloudy-forest.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
     text-align: center;
+    border-radius: 20px;
 }
