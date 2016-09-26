@@ -1,7 +1,10 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-form {
+button {
+    color: black;
+}
+input {
     color: black;
 }
 hr {
@@ -33,7 +36,8 @@ h2 {
 }
 .sunny {
     color: white;
-    background-image:url(http://dangsayz.com/images/sunny-images/sunny-images-3.jpg);
+    /*background-image:url(http://dangsayz.com/images/sunny-images/sunny-images-3.jpg);*/
+    background-color: orange;
     background-size: cover;
     background-position: center top;
     text-align: center;
@@ -41,35 +45,40 @@ h2 {
 }
 .rainy {
     color: white;
-    background-image:url(https://openclipart.org/image/2400px/svg_to_png/237824/rainOnWindow.png);
+    /*background-image:url(https://openclipart.org/image/2400px/svg_to_png/237824/rainOnWindow.png);*/
+    background-color: gray;
     background-size: cover;
     text-align: center;
     border-radius: 20px;
 }
 .snow {
     color: white;
-    background-image:url(http://media.nbcmiami.com/images/1200*675/Snow-Flurries-Generic.jpg);
+    /*background-image:url(http://media.nbcmiami.com/images/1200*675/Snow-Flurries-Generic.jpg);*/
+    background-color: dodgerblue;
     background-size: cover;
     text-align: center;
     border-radius: 20px;
 }
 .sleet {
     color: white;
-    background-image:url(https://media1.britannica.com/eb-media/67/123867-004-B8C2F31F.jpg);
+    /*background-image:url(https://media1.britannica.com/eb-media/67/123867-004-B8C2F31F.jpg);*/
+    background-color: palevioletred;
     background-size: cover;
     text-align: center;
     border-radius: 20px;
 }
 .clear {
     color: white;
-    background-image:url(http://www.gilbertlodge.com/2011/images/01-20-11-moon.jpg);
+    /*background-image:url(http://www.gilbertlodge.com/2011/images/01-20-11-moon.jpg);*/
+    background-color: fuchsia;
     background-size: cover;
     text-align: center;
     border-radius: 20px;
 }
 .cloudy {
     color: white;
-    background-image:url(https://static.pexels.com/photos/1818/sky-clouds-cloudy-forest.jpg);
+    /*background-image:url(https://static.pexels.com/photos/1818/sky-clouds-cloudy-forest.jpg);*/
+    background-color: turquoise;
     background-size: cover;
     text-align: center;
     border-radius: 20px;

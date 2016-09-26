@@ -14,18 +14,14 @@
 </head>
 
 <body>
-    <h2>Weather App Wireframe</h2>
+    <h2>LukeWarm Weather App</h2>
     <div class="mainScreen">
         <!--FIRST THREE MAIN COLUMNS-->
-        <div class="container hidden-sm hidden-xs">
+        <div class="container">
             <div class="row center-block">
                 <!--SUNNY-->
                 <div class="col-sm-4 spacing sunny">
-                    
-                    <!--<input id="card1" type="text" placeholder="Please enter ZIP or City & State">
-                    <input type="submit" onclick="newAddress();">-->
-                    
-                    <h4>Paintsville, KY</h4>
+                    <h4 class="cityName1"></h4>
                     <br />
                     <h1 class="currentTemperature1"></h1>
                     <br />
@@ -46,11 +42,15 @@
                             <h5 class="currentMaxTemperature1"></h5>
                             <h5>max</h5>
                         </div>
+                        <div>
+                            <input type="text" id="locationInput1" placeholder="Enter Zip or city here.">
+                            <button id="showWeather1">Search</button>
+                        </div>
                     </div>
                 </div>
                 <!--RAINY-->
                 <div class="col-sm-4 spacing rainy">
-                    <h4>Stopover, KY</h4>
+                    <h4 class="cityName2"></h4>
                     <br />
                     <h1 class="currentTemperature2"></h1>
                     <br />
@@ -71,11 +71,15 @@
                             <h5 class="currentMaxTemperature2"></h5>
                             <h5>max</h5>
                         </div>
+                        <div>
+                            <input type="text" id="locationInput2" placeholder="Enter Zip or city here.">
+                            <button id="showWeather2">Search</button>
+                        </div>
                     </div>
                 </div>
                 <!--SNOW-->
                 <div class="col-sm-4 spacing snow">
-                    <h4>Majestic, KY</h4>
+                    <h4 class="cityName3"></h4>
                     <br />
                     <h1 class="currentTemperature3"></h1>
                     <br />
@@ -96,16 +100,20 @@
                             <h5 class="currentMaxTemperature3"></h5>
                             <h5>max</h5>
                         </div>
+                        <div>
+                            <input type="text" id="locationInput3" placeholder="Enter Zip or city here.">
+                            <button id="showWeather3">Search</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <!--NEXT THREE MAIN COLUMNS-->
-        <div class="container hidden-sm hidden-xs">
+        <div class="container">
             <div class="row center-block">
                 <!--SLEET-->
                 <div class="col-sm-4 spacing sleet">
-                    <h4>Pikeville, KY</h4>
+                    <h4 class="cityName4"></h4>
                     <br />
                     <h1 class="currentTemperature4"></h1>
                     <br />
@@ -126,11 +134,15 @@
                             <h5 class="currentMaxTemperature4"></h5>
                             <h5>max</h5>
                         </div>
+                        <div>
+                            <input type="text" id="locationInput4" placeholder="Enter Zip or city here.">
+                            <button id="showWeather4">Search</button>
+                        </div>
                     </div>
                 </div>
                 <!--CLEAR WEATHER-->
                 <div class="col-sm-4 spacing clear">
-                    <h4>Phelps, KY</h4>
+                    <h4 class="cityName5"></h4>
                     <br />
                     <h1 class="currentTemperature5"></h1>
                     <br />
@@ -151,11 +163,15 @@
                             <h5 class="currentMaxTemperature5"></h5>
                             <h5>max</h5>
                         </div>
+                        <div>
+                            <input type="text" id="locationInput5" placeholder="Enter Zip or city here.">
+                            <button id="showWeather5">Search</button>
+                        </div>
                     </div>
                 </div>
                 <!--CLOUDY WEATHER-->
                 <div class="col-sm-4 spacing cloudy">
-                    <h4>Staffordsville, KY</h4>
+                    <h4 class="cityName6"></h4>
                     <br />
                     <h1 class="currentTemperature6"></h1>
                     <br />
@@ -176,12 +192,16 @@
                             <h5 class="currentMaxTemperature6"></h5>
                             <h5>max</h5>
                         </div>
+                        <div>
+                            <input type="text" id="locationInput6" placeholder="Enter Zip or city here.">
+                            <button id="showWeather6">Search</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <h3 class="visible-sm hidden-md">Please increase your screen size!</h3>
+    <!--<h3 class="visible-sm hidden-md">Please increase your screen size!</h3>-->
 
 
 
